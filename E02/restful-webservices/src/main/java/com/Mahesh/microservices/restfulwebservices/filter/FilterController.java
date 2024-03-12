@@ -18,6 +18,6 @@ public class FilterController {
     @GetMapping("/filtering-list")
     public List<Filter> getSomeFieldsList(){
 //        ArrayList<Filter> al=new ArrayList<>();
-       ret  urn Arrays.asList(new Filter("A", "B", "C"), new Filter("D", "E", "F"));
+       return Arrays.asList(new Filter("A", "B", "C"), new Filter("D", "E", "F"));
     }
 }

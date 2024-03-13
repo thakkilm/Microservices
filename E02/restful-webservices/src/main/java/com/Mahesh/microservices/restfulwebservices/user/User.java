@@ -23,7 +23,7 @@ public class User {
  @Past
  @JsonProperty("BirthDate")
  private LocalDate date;
-
+protected User(){}
     public User(Integer id, String name, LocalDate date) {
         this.id = id;
         this.name = name;

@@ -5,10 +5,11 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@JsonIgnoreProperties( "field3")
+//@JsonIgnoreProperties( "field3")
+@JsonFilter("someBeanFilter")
 public class Filter {
 
-    @JsonIgnore
+//    @JsonIgnore
     private String field1;
     private String field2;
     private String field3;

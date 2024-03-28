@@ -37,4 +37,13 @@ public class ErrorDetails {
     public void setDetails(String details) {
         this.details = details;
     }
+
+    @Override
+    public String toString() {
+        return "ErrorDetails{" +
+                "timeStamp=" + timeStamp +
+                ", message='" + message + '\'' +
+                ", details='" + details + '\'' +
+                '}';
+    }
 }
